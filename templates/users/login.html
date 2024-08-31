@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% load static %}
+    <link
+      rel="stylesheet"
+      href="{% static 'login.css' %}"
+    />
+  </head>
+  <body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="oauth-buttons">
+            <button class="google-btn">Login with Google</button>
+            <button class="apple-btn">Login with Apple</button>
+        </div>
+        <div class="separator">or Login with</div>
+        <form method="post">
+        </form>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="password" name="password" placeholder="Your Password" required>
+            <div class="options">
+                <label><input type="checkbox" name="remember"> Remember me</label>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <p class="signup-link">Don't have an account? <a href="#">Signup</a></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050e27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgb(11, 23, 57);
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.oauth-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.oauth-buttons button {
+    padding: 10px;
+    width: 48%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.google-btn {
+    background: linear-gradient(128.49deg, rgb(203, 60, 255) 19.86%, rgb(127, 37, 251) 68.34%);
+    color: white;
+}
+
+.apple-btn {
+    background: rgb(10, 19, 48);
+    color: white;
+    border: 1px solid #2f3650;
+}
+
+.separator {
+    text-align: center;
+    color: #6c7293;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #2f3650;
+    border-radius: 4px;
+    background-color: rgba(27, 33, 54, 0.5);
+    color: white;
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #6c7293;
+    font-size: 14px;
+}
+
+.forgot-password {
+    color: #a851ff;
+    text-decoration: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(128.49deg, rgb(203, 60, 255) 19.86%, rgb(127, 37, 251) 68.34%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.signup-link {
+    text-align: center;
+    color: #6c7293;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #a851ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+    
