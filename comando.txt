@@ -18,9 +18,21 @@ python manage.py migrate-> Aplica las migraciones pendientes a la base de datos,
 
 python manage.py runserver-> Inicia un servidor de desarrollo para tu proyecto Django, lo que te permite ver tu aplicación web en un navegador.
 
-git init 
-git add . 
-git commit -m "your_message"
-git remote add origin https://github.com/xander-18/New_Service
-git push -u origin master
 
+GIT HUB
+
+git init:
+
+Inicializa un nuevo repositorio Git en el directorio actual. Crea una carpeta .git que rastreará los cambios en tu proyecto.
+git add .:
+
+Añade todos los archivos nuevos o modificados en el directorio actual al área de preparación (staging area). Esto significa que estos archivos están listos para ser confirmados (commit).
+git commit -m "your_message":
+
+Crea un commit, es decir, guarda una instantánea de los archivos que están en el área de preparación. El mensaje "your_message" describe los cambios que se han hecho.
+git remote add origin https://github.com/xander-18/New_Service:
+
+Vincula tu repositorio local con un repositorio remoto en GitHub. origin es el nombre que Git usa para referirse a este repositorio remoto.
+git push -u origin master:
+
+Envía (sube) tus commits en la rama master al repositorio remoto en GitHub (origin). El -u indica que deseas configurar la rama master local para rastrear origin/master, lo que hace que futuros git push o git pull sean más sencillos.
