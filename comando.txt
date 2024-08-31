@@ -1,19 +1,26 @@
-python -m virtualenv venv: Crea un entorno virtual llamado venv. Un entorno virtual es un espacio aislado donde puedes instalar paquetes específicos para tu proyecto sin afectar el sistema global de Python.
+python -m virtualenv venv->Crea un entorno virtual llamado venv. Un entorno virtual es un espacio aislado donde puedes instalar paquetes específicos para tu proyecto sin afectar el sistema global de Python.
 
-.\venv\Scripts\activate: Activa el entorno virtual en Windows. Esto significa que cualquier paquete que instales usando pip se instalará en el entorno virtual en lugar de en el sistema global.
+.\venv\Scripts\activate->Activa el entorno virtual en Windows. Esto significa que cualquier paquete que instales usando pip se instalará en el entorno virtual en lugar de en el sistema global.
 
-deactivate: Desactiva el entorno virtual, volviendo al entorno global de Python.
+deactivate->Desactiva el entorno virtual, volviendo al entorno global de Python.
 
-pip install django: Instala Django, que es un framework web de alto nivel en Python que facilita el desarrollo de aplicaciones web robustas y escalables.
+pip install django-> Instala Django, que es un framework web de alto nivel en Python que facilita el desarrollo de aplicaciones web robustas y escalables.
 
-django-admin startproject "your_name_project": Crea un nuevo proyecto Django llamado "your_name_project". Un proyecto Django es una colección de configuraciones y aplicaciones que forman tu sitio web.
+django-admin startproject "your_name_project"->Crea un nuevo proyecto Django llamado "your_name_project". Un proyecto Django es una colección de configuraciones y aplicaciones que forman tu sitio web.
 
 django-admin startapp "your_name_app": Crea una nueva aplicación dentro de tu proyecto Django llamada "your_name_app". Una aplicación en Django es un módulo que realiza una función específica en tu sitio web, como manejar usuarios, blogs, etc.
 
-pip install Pillow: Instala Pillow, una biblioteca de manipulación de imágenes en Python. Es útil si tu proyecto Django necesita manejar imágenes (como subir y mostrar fotos).
+pip install Pillow-> Instala Pillow, una biblioteca de manipulación de imágenes en Python. Es útil si tu proyecto Django necesita manejar imágenes (como subir y mostrar fotos).
 
-python manage.py makemigrations: Crea archivos de migración basados en los cambios que hayas hecho en tus modelos Django. Las migraciones son la forma en que Django convierte tus cambios de código en cambios en la base de datos.
+python manage.py makemigrations-> Crea archivos de migración basados en los cambios que hayas hecho en tus modelos Django. Las migraciones son la forma en que Django convierte tus cambios de código en cambios en la base de datos.
 
-python manage.py migrate: Aplica las migraciones pendientes a la base de datos, creando o actualizando las tablas según lo especificado en tus modelos.
+python manage.py migrate-> Aplica las migraciones pendientes a la base de datos, creando o actualizando las tablas según lo especificado en tus modelos.
 
-python manage.py runserver: Inicia un servidor de desarrollo para tu proyecto Django, lo que te permite ver tu aplicación web en un navegador.
+python manage.py runserver-> Inicia un servidor de desarrollo para tu proyecto Django, lo que te permite ver tu aplicación web en un navegador.
+
+git init 
+git add . 
+git commit -m "your_message"
+git remote add origin https://github.com/xander-18/New_Service
+git push -u origin master
+
